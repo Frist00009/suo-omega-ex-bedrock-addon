@@ -1,0 +1,34 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Suo Omega EX - Behavior Pack",
+    "description": "Skill addon with Galaxy Remote, menu commands, cooldown, and casting logic.",
+    "uuid": "d02c6f3a-7ad4-4d82-8d40-9b7d59ae9138",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "4ab68cc1-7d70-4ee5-8ab2-1fb756576b80",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "6e4c5e89-f0ef-4faf-b5af-b7d2165a2ef1",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.0.0"
+    },
+    {
+      "module_name": "@minecraft/common",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "namespace": "suo_omega_ex",
+  "skill_menu": {
+    "type": "screen",
+    "title": "Suo Omega EX",
+    "content": [
+      {
+        "type": "panel",
+        "controls": [
+          {
+            "type": "label",
+            "text": "§l§6Suo Omega EX§r",
+            "size": ["100%", 22],
+            "color": [1, 1, 1, 1]
+          },
+          {
+            "type": "stack_panel",
+            "orientation": "vertical",
+            "controls": [
+              { "type": "label", "text": "01 • ECLIPSE RAY" },
+              { "type": "label", "text": "02 • EVENT HORIZON" },
+              { "type": "label", "text": "03 • BLACK HOLE" },
+              { "type": "label", "text": "04 • SPACETIME" },
+              { "type": "label", "text": "05 • CHRONO WHEEL" },
+              { "type": "label", "text": "06 • WHEEL OF FATE" },
+              { "type": "label", "text": "07 • ABSOLUTE VOID" },
+              { "type": "label", "text": "08 • THE END" },
+              { "type": "label", "text": "09 • ANNIHILATION OF ALL THINGS" },
+              { "type": "label", "text": "10 • SINGULARITY COLLAPSE" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
